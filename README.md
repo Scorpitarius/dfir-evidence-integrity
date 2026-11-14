@@ -106,16 +106,23 @@ This investigation demonstrated the importance of preserving original evidence, 
 
 The controlled modification produced a different SHA-256 hash, illustrating how hashing can identify changes to digital evidence.
 
-
 ## Supporting Documentation
 
 ### Investigation Report
 
 [View DFIR-001 Forensic File Integrity Verification Report](DFIR-001_Forensic_File_Integrity_Verification_Report.pdf)
 
-The report includes the examination objectives, laboratory environment, evidence description, methodology, findings, screenshots, limitations, and conclusion.
+The complete investigation report documents the examination objectives, laboratory environment, evidence description, methodology, findings, screenshots, limitations, and conclusion.
 
 ### Supporting Artifacts
 
-Additional investigation screenshots and hash verification records will be added separately.
+| Artifact | Description |
+|---|---|
+| [final-hashes.csv](artifacts/final-hashes.csv) | Recorded SHA-256 hashes of the original evidence and modified working copy. |
+| [integrity-verification.txt](artifacts/integrity-verification.txt) | Final integrity comparison and documented observations. |
+| [screenshot-hashes.csv](artifacts/screenshot-hashes.csv) | SHA-256 records for the three investigation screenshots. |
+
+The initial matching hash comparison and controlled modification are documented in the investigation report's screenshots.
+
+**Evidence Integrity Note:** These artifacts document a controlled laboratory exercise. The recorded hashes support integrity verification but do not establish a formal chain of custody.
 
